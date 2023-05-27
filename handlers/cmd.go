@@ -35,7 +35,7 @@ func ExecuteCMD() {
 			}
 
 			if scanner.Text() == "2" {
-				fmt.Println("Ingrese el ID del cliente : ")
+				fmt.Println("Enter customer Id: ")
 				if scanner.Scan() {
 					id, _ = strconv.Atoi(scanner.Text())
 				}
@@ -45,15 +45,15 @@ func ExecuteCMD() {
 
 			if scanner.Text() == "3" {
 
-				fmt.Println("Ingrese nombre : ")
+				fmt.Println("Enter customer name: ")
 				if scanner.Scan() {
 					name = scanner.Text()
 				}
-				fmt.Println("Ingrese E-Mail : ")
+				fmt.Println("Enter customer email: ")
 				if scanner.Scan() {
 					email = scanner.Text()
 				}
-				fmt.Println("Ingrese Teléfono : ")
+				fmt.Println("Enter customer phone: ")
 				if scanner.Scan() {
 					phone = scanner.Text()
 				}
@@ -68,19 +68,19 @@ func ExecuteCMD() {
 
 			if scanner.Text() == "4" {
 
-				fmt.Println("Ingrese ID cliente : ")
+				fmt.Println("Enter customer Id: ")
 				if scanner.Scan() {
 					id, _ = strconv.Atoi(scanner.Text())
 				}
-				fmt.Println("Ingrese nombre : ")
+				fmt.Println("Enter customer name: ")
 				if scanner.Scan() {
 					name = scanner.Text()
 				}
-				fmt.Println("Ingrese E-Mail : ")
+				fmt.Println("Enter customer email: ")
 				if scanner.Scan() {
 					email = scanner.Text()
 				}
-				fmt.Println("Ingrese Teléfono : ")
+				fmt.Println("Enter customer phone: ")
 				if scanner.Scan() {
 					phone = scanner.Text()
 				}
@@ -95,7 +95,7 @@ func ExecuteCMD() {
 			}
 
 			if scanner.Text() == "5" {
-				fmt.Println("Ingrese el ID del cliente : ")
+				fmt.Println("Enter customer Id: ")
 				if scanner.Scan() {
 					id, _ = strconv.Atoi(scanner.Text())
 				}
